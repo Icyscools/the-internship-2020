@@ -33,5 +33,8 @@ def is_prime(num):
 if __name__ == "__main__":
     next_num = float(input())
     while (next_num != 0):
-        print(floating_prime(next_num))
+        if (floating_prime(next_num) == True):
+            print("TRUE")
+        else:
+            print("FALSE")
         next_num = float(input())
